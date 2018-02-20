@@ -5,6 +5,7 @@
 
     <!--Red layout-->
     <LinearLayout
+        android:padding="20dp"
         android:layout_centerInParent="true"
         android:orientation="vertical"
         android:layout_width="wrap_content"
@@ -18,21 +19,25 @@
 
             <!--Green layout-->
             <RelativeLayout
-                android:layout_width="150dp"
-                android:layout_height="150dp">
+                android:layout_width="@dimen/icon"
+                android:layout_height="@dimen/icon">
+
                 <!--station1-->
                 <ImageView
-                    android:src="@drawable/station1"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/station1" />
 
             </RelativeLayout>
 
 
             <!--Green layout-->
             <RelativeLayout
-                android:layout_width="150dp"
-                android:layout_height="150dp">
+                android:layout_width="@dimen/icon"
+                android:layout_height="@dimen/icon">
 
                 <!--Station2-->
                 <ImageView
@@ -55,8 +60,8 @@
 
             <!--Green Layout-->
             <RelativeLayout
-                android:layout_width="150dp"
-                android:layout_height="150dp">
+                android:layout_width="@dimen/icon"
+                android:layout_height="@dimen/icon">
                 <!--station3-->
                 <ImageView
                     android:src="@drawable/station3"
@@ -67,8 +72,8 @@
 
             <!--Green Layout-->
             <RelativeLayout
-                android:layout_width="150dp"
-                android:layout_height="150dp">
+                android:layout_width="@dimen/icon"
+                android:layout_height="@dimen/icon">
 
                 <!--station4-->
                 <ImageView
