@@ -18,12 +18,24 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
 
-    <!--Fragment-->
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
 
+        <!--wallpaper-->
+        <ImageView
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    <!--Fragment-->
     <FrameLayout
         android:id="@+id/comteMainFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
+        </RelativeLayout>
 
 
     </LinearLayout>
@@ -34,14 +46,18 @@
         android:background="#ffffff"
         android:orientation="vertical"
         android:layout_width="320dp"
-        android:layout_height="match_parent"></LinearLayout>
+        android:layout_height="match_parent">
 
-  <TextView
-      android:textStyle="bold"
-      android:textSize="24dp"
-    android:text="Drawer menu"
-    android:layout_width="wrap_content"
-    android:layout_height="match_parent"/>
+        <TextView
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:text="Drawer menu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
 
 
 
