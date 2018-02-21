@@ -56,7 +56,9 @@ public class MainFragment extends Fragment{
 
     }  //Main Method
 
- public void callStation(String numberCall)
+ public void callStation(String numberCall) {
+
+ }
 
 
     @Nullable
